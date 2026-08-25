@@ -26,6 +26,15 @@ Additionally, this project has recently started (begun near start of 08/2026) so
 
 ### Revision 0
 
+</br>
+<div align="center">
+  <img src="./media/prototyperev0.png" alt="Prototype machine" width="40%"></img>
+  <p>Prototype bioprinter in its current state</p>
+</div>
+<div align="center">
+</br>
+</div>
+
 This current prototype version is based around 3 ball screw driven linear axes, with a pneumatic syringe pump to provide extrusion. This pneumatic pump actuates a syringe loaded with a bioink, enabling FRESH bioprinting and direct ink writing methods. The system has different syringe holding blocks that can be swapped out, ranging from 1-5 ml ink volumes. There may be an overhaul of this extrusion system to enable much larger ink volumes. 
 
 The 'brain' of the machine currently is an ESP32-S3 dev board, programmed using platformIO.
@@ -33,8 +42,8 @@ Currently, the system can receive coordinate commands and move to that position 
 
 </br>
 <div align="center">
-  <img src="./media/prototyperev0.png" alt="Prototype machine" width="40%"></img>
-  <p>Prototype bioprinter in its current state</p>
+  <img src="./media/testingprint0.png" alt="test FRESH print using 2% alginate ink" width="40%"></img>
+  <p>test FRESH print using 2% alginate ink</p>
 </div>
 <div align="center">
 </br>
